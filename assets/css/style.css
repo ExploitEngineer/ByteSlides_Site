@@ -17,7 +17,12 @@ body {
     --yellow-color: #FBB41C;
     --blue-color: #045d9c;
     --lightblue: #34a4dc;
+    --black: #000;
     --btn-font: 12px;
+}
+
+::placeholder {
+    color: var(--black);
 }
 
 
@@ -144,7 +149,40 @@ main {
             color: var(--lightblue);
         }
     }
+
+    .mainsec4 {
+
+        .mainform {
+            background: linear-gradient(90deg, var(--lightblue), var(--blue-color));
+            padding: 130px 70px;
+
+            .formbtn {
+                background: var(--yellow-color);
+            }
+        }
+    }
 }
+
+footer {
+    background: linear-gradient(to right, var(--blue-color), var(--lightblue));
+
+    .footermain {
+
+
+        h3 {
+            color: var(--yellow-color);
+        }
+    }
+
+    .mainicons {
+        i {
+            width: 30px;
+            height: 30px;
+            background: var(--yellow-color);
+        }
+    }
+}
+
 
 .swiper {
     width: 600px;
@@ -152,7 +190,7 @@ main {
 
     .swiper-slide {
 
-        img {
+        .newimg {
             width: 80px;
             height: 80px;
             border-radius: 50%;
@@ -162,4 +200,9 @@ main {
             color: var(--blue-color);
         }
     }
+}
+
+.customSwiper {
+    width: 100%;
+    height: 400px;
 }
