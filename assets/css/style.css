@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", serif !important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --yellow-color: #FBB41C;
+    --blue-color: #045d9c;
+    --lightblue: #34a4dc;
+    --btn-font: 12px;
+}
+
+
+/* INFO: Navbar */
+.mainnav {
+
+    .navul {
+
+        >li {
+
+            >a {
+                color: var(--blue-color);
+                border-bottom: 3px solid transparent;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    border-color: var(--yellow-color);
+                    color: var(--yellow-color);
+                }
+            }
+
+
+            &:nth-child(2) {
+
+                &:hover {
+                    i:nth-child(2) {
+                        transition: all 0.4s ease;
+                        transform: rotate(180deg) !important;
+                    }
+
+                    .dropdownul {
+                        display: block !important;
+                        width: 225%;
+
+                        li a {
+                            color: var(--blue-color);
+                            font-size: 12px !important;
+                            transition: all 0.5 ease;
+
+                            &:hover {
+                                color: var(--yellow-color);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* INFO: Header Section 01 */
+.headsec1 {
+    background: linear-gradient(90deg, #045d9cda, #34a4dcf3), url(/assets/images/bannerimg.jpeg) no-repeat top / cover;
+    height: 880px;
+
+    .mainbtn {
+        font-size: var(--btn-font);
+        background: var(--yellow-color);
+    }
+}
+
+/* FIXME: Main */
+main {
+
+
+    /* INFO: Main Section 01 */
+    .mainsec1 {
+        height: 900px;
+
+        .sec1div {
+            h1 {
+                color: var(--lightblue);
+            }
+        }
+
+        .card {
+            transition: all 0.9s ease;
+
+            &:hover {
+
+                .cardoverlay {
+                    opacity: 1 !important;
+                }
+
+                .cardimgdiv,
+                .card-body {
+                    opacity: 0;
+                }
+            }
+
+            .cardimgdiv {
+                width: 90px;
+                height: 90px;
+                background: var(--blue-color);
+                transition: all 0.8s ease-in-out;
+            }
+
+            .cardoverlay {
+                transition: all 0.8s ease-in-out;
+                background: linear-gradient(to right, var(--lightblue), var(--blue-color));
+            }
+
+            .card-body {
+                transition: all 0.8s ease-in-out;
+
+                h1 {
+                    color: var(--blue-color);
+                }
+            }
+        }
+
+    }
+
+    /* INFO: Main Section 02 */
+    .mainsec2 {
+
+        .mainsec2div {
+            background: linear-gradient(to left, var(--blue-color), var(--lightblue));
+        }
+
+        .swiper {
+            width: 50%;
+          }
+    }
+
+}
