@@ -1,2 +1,5 @@
-const secDropdown = document.querySelectorAll(".secdropdown");
+const swiper = new Swiper('.swiper', {
+    direction: 'vertical',
+    loop: true,
+});
 

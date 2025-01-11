@@ -82,7 +82,6 @@ body {
 /* FIXME: Main */
 main {
 
-
     /* INFO: Main Section 01 */
     .mainsec1 {
         height: 900px;
@@ -137,10 +136,30 @@ main {
         .mainsec2div {
             background: linear-gradient(to left, var(--blue-color), var(--lightblue));
         }
-
-        .swiper {
-            width: 50%;
-          }
     }
 
+    .sec3text {
+
+        h1 {
+            color: var(--lightblue);
+        }
+    }
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+
+    .swiper-slide {
+
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        h3 {
+            color: var(--blue-color);
+        }
+    }
 }
