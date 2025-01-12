@@ -1,22 +1,20 @@
-function firstSwipper() {
+function firstSwiper() {
     const swiper = new Swiper('.swiper', {
         direction: 'vertical',
         loop: true,
     });
 };
 
-function secondSwipper() {
-    const customSwiper = new Swiper('.customSwiper', {
-        slidesPerView: 4,
-        spaceBetween: 20,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+function secondSwiper() {
+    const swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination2",
+            clickable: true,
         },
-        loop: true,
     });
 };
 
-
-firstSwipper();
-secondSwipper();
+firstSwiper();
+secondSwiper();

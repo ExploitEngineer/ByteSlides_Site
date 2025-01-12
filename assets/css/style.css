@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Josefin Sans", serif !important;
 }
 
 html,
 body {
     width: 100%;
     height: 100%;
+}
+
+body {
+    font-family: system-ui !important;
+    overflow-x: hidden;
 }
 
 :root {
@@ -206,3 +208,22 @@ footer {
     width: 100%;
     height: 400px;
 }
+
+.swiper2 {
+    width: 97%;
+    height: 100%;
+
+    .swiper-slide {
+
+        .card-body {
+
+            h1 {
+                color: var(--blue-color);
+            }
+
+            button {
+                background: var(--lightblue);
+            }
+        }
+    }
+  }
