@@ -12,7 +12,16 @@ body {
 
 body {
     font-family: system-ui !important;
-    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background: var(--white);
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightblue);
+    border-radius: 20px;
 }
 
 :root {
@@ -20,6 +29,7 @@ body {
     --blue-color: #045d9c;
     --lightblue: #34a4dc;
     --black: #000;
+    --white: #fff;
     --btn-font: 12px;
 }
 
