@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 # Project Title
 
 🌟 BySlides ✨
@@ -534,4 +532,3 @@ This will generate the optimized files in the `build` folder, which can be uploa
 
 - If you encounter any issues during installation, make sure that your Node.js and npm versions are up to date.
 - If the website doesn’t display as expected, check the browser’s developer tools for any errors in the console.
->>>>>>> aeec7953d938497b6e9ec43f68be6aea21b47aa9
