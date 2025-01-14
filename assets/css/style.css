@@ -151,4 +151,20 @@ main {
             }
         }
     }
+
+    .sec2mcon {
+        background: linear-gradient(to right top, var(--blue), var(--lightblue));
+
+        .card {
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            h3 {
+                color: var(--blue);
+            }
+        }
+    }
 }
