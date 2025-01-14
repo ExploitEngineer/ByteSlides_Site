@@ -25,7 +25,6 @@ body {
     --btn-text: 11px;
 }
 
-
 /* FIXME: Header */
 header {
     .navh {
@@ -166,5 +165,64 @@ main {
                 color: var(--blue);
             }
         }
+    }
+
+    .sec3m {
+
+        h1 {
+            color: var(--lightblue);
+        }
+
+        .card {
+
+            h1 {
+                color: var(--blue);
+                text-overflow: ellipsis;
+            }
+
+            p {
+                text-overflow: ellipsis;
+            }
+
+            button {
+                background: linear-gradient(90deg, var(--lightblue), var(--blue));
+            }
+        }
+    }
+
+    .sec4m {
+
+        .sec4mcon {
+            background: linear-gradient(90deg, var(--blue), var(--lightblue));
+        }
+
+        button {
+            background: var(--orange);
+        }
+    }
+}
+
+/* FIXME: Footer */
+footer {
+
+    .fcon {
+        background: linear-gradient(90deg, var(--blue), var(--lightblue));
+
+        h3 {
+            color: var(--orange);
+        }
+    }
+
+    .icons {
+
+        i {
+            width: 40px;
+            height: 40px;
+            background: var(--orange);
+        }
+    }
+
+    .fconf {
+        background: var(--black);
     }
 }
