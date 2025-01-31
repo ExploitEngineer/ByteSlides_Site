@@ -42,7 +42,7 @@ More slider animations and themes.
 Multi-language support.
 ## Authors
 
-- [@DSnake0](https://www.github.com/DSnake0)
+- [@ExploitEngineer](https://www.github.com/ExploitEngineer)
 
 
 ## Badges
@@ -384,7 +384,7 @@ You can provide your feedback in the following ways:
 - Via Email: Send us your thoughts directly at revilwhoami0098@gmail.com
 - On GitHub: Submit an issue or feature request in the BySlides GitHub repository.
 - Through Social Media: Reach out to us on our social media platforms (links provided below).
-- Using the Contact Form: [https://github.com/DSnake0].
+- Using the Contact Form: [https://github.com/ExploitEngineer].
 
 
 🙌 Why Your Feedback Matters:
@@ -392,7 +392,7 @@ BySlides is built with the goal of providing an accessible, engaging, and user-f
 
 Thank you for being a part of our journey! We’re constantly working on making BySlides better, and your feedback is essential in helping us get there.
 ## 🔗 Links
-[![portfolio](https://github.com/DSnake0)](https://katherineoelsner.com/)
+[![portfolio](https://github.com/ExploitEngineer)](https://katherineoelsner.com/)
 [![linkedin](https://www.linkedin.com/in/abdul-rafay-60b8b432b/)](https://www.linkedin.com/in/abdul-rafay-60b8b432b/)
 [![website](https://significo1.verce.app)](https://twitter.com/)
 
@@ -415,7 +415,7 @@ Before you begin, ensure that you have the following installed:
 First, clone the BySlides repository to your local machine by running the following command in your terminal:
 
 ```bash
-git clone https://github.com/DSnake0/ByteSlides_Site.git
+git clone https://github.com/ExploitEngineer/ByteSlides_Site.git
 ```
 
 - Navigate to the Project Directory
@@ -483,7 +483,7 @@ Before you begin, ensure that you have the following installed:
 First, clone the BySlides repository to your local machine by running the following command in your terminal:
 
 ```bash
-git clone https://github.com/DSnake0/ByteSlides_Site.git
+git clone https://github.com/ExploitEngineer/ByteSlides_Site.git
 ```
 
 - Navigate to the Project Directory
